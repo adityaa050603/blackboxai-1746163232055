@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GreenGrid - EV Charging & CNG Refueling Station Locator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-['Roboto'] min-h-screen flex flex-col">
+  <header class="bg-green-700 text-white shadow">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold">GreenGrid</h1>
+      <nav class="space-x-6">
+        <a href="index.html" class="hover:underline">Home</a>
+        <a href="stations.html" class="hover:underline">Stations</a>
+        <a href="user-login.html" class="hover:underline">User Login</a>
+        <a href="admin-login.html" class="hover:underline">Admin Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="flex-grow container mx-auto px-4 py-12">
+    <section class="text-center max-w-4xl mx-auto">
+      <h2 class="text-4xl font-extrabold mb-4">Find EV Charging & CNG Refueling Stations Near You</h2>
+      <p class="text-lg text-gray-700 mb-8">GreenGrid helps you locate electric vehicle charging and CNG refueling stations quickly and easily.</p>
+      <a href="stations.html" class="inline-block bg-green-600 text-white px-6 py-3 rounded-lg shadow hover:bg-green-700 transition">Locate Stations</a>
+    </section>
+
+    <section class="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+        <i class="fas fa-bolt fa-3x text-green-600 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">EV Charging Stations</h3>
+        <p class="text-gray-600">Find nearby electric vehicle charging points to keep your EV powered up.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+        <i class="fas fa-gas-pump fa-3x text-green-600 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">CNG Refueling Stations</h3>
+        <p class="text-gray-600">Locate CNG refueling stations for your compressed natural gas vehicles.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+        <i class="fas fa-map-marker-alt fa-3x text-green-600 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Real-Time Updates</h3>
+        <p class="text-gray-600">Get real-time information about station availability and status.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-green-700 text-white text-center p-4">
+    &copy; 2024 GreenGrid. All rights reserved.
+  </footer>
+</body>
+</html>
