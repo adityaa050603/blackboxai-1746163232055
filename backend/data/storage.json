@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "$2b$10$7QJ6vQ6vQ6vQ6vQ6vQ6vQOQ6vQ6vQ6vQ6vQ6vQ6vQ6vQ6vQ6vQ6vQ6", 
+      "role": "admin"
+    }
+  ],
+  "stations": []
+}
